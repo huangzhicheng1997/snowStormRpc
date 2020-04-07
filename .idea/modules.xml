@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/snowStormRpc.iml" filepath="$PROJECT_DIR$/.idea/snowStormRpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm/snowstorm.iml" filepath="$PROJECT_DIR$/snowstorm/snowstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootstartersnowstorm/springbootstartersnowstorm.iml" filepath="$PROJECT_DIR$/springbootstartersnowstorm/springbootstartersnowstorm.iml" />
+    </modules>
+  </component>
+</project>
