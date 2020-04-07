@@ -7,17 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="snowstorm" />
-        <module name="springbootstartersnowstorm" />
+        <module name="spring-boot-starter-snowstorm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="snowstorm" target="8" />
-      <module name="springbootstartersnowstorm" target="1.8" />
+      <module name="spring-boot-starter-snowstorm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springbootstartersnowstorm" options="-parameters" />
+      <module name="spring-boot-starter-snowstorm" options="-parameters" />
     </option>
   </component>
 </project>

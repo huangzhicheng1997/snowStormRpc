@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/snowStormRpc.iml" filepath="$PROJECT_DIR$/.idea/snowStormRpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/snowstorm/snowstorm.iml" filepath="$PROJECT_DIR$/snowstorm/snowstorm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootstartersnowstorm/springbootstartersnowstorm.iml" filepath="$PROJECT_DIR$/springbootstartersnowstorm/springbootstartersnowstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootstartersnowstorm/spring-boot-starter-snowstorm.iml" filepath="$PROJECT_DIR$/springbootstartersnowstorm/spring-boot-starter-snowstorm.iml" />
     </modules>
   </component>
 </project>
