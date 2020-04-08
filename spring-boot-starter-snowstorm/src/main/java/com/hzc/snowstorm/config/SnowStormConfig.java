@@ -1,7 +1,5 @@
 package com.hzc.snowstorm.config;
 
-import com.hzc.snowstorm.annotation.SnowCaller;
-import com.hzc.snowstorm.core.CallerProxy;
 import com.hzc.snowstorm.core.GlobalConstant;
 import com.rpc.register.function.CallerRemote;
 import org.springframework.beans.BeansException;
@@ -12,11 +10,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.core.annotation.Order;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.Map;
+import static com.hzc.snowstorm.config.RemoteCallContext.callerRemote;
+import static com.hzc.snowstorm.config.RemoteCallContext.refresh;
 
 /**
  * @author: hzc
@@ -24,10 +20,9 @@ import java.util.Map;
  * @Description:
  */
 @Configuration
-public class SnowStormConfig extends GlobalConstant implements ApplicationContextAware, ApplicationListener<ContextRefreshedEvent> {
+public class SnowStormConfig implements ApplicationContextAware, ApplicationListener<ContextRefreshedEvent> {
     @Value("${spring.application.name}")
     private String appName;
-
     @Value("${snowstorm.dispatcher.addr}")
     private String dispatcherAddr;
     @Value("${snowstorm.queueNumbers}")
@@ -41,11 +36,13 @@ public class SnowStormConfig extends GlobalConstant implements ApplicationContex
 
     @Bean
     public CallerRemote callerRemote() {
+        //新建callerRemote实例，并绑定一个服务名
         CallerRemote callerRemote = new CallerRemote(appName);
-        callerRemote.setServiceProvidersHolder(serviceProvidersHolder);
+        //
+        callerRemote.setServiceProvidersHolder(RemoteCallContext.serviceProvidersHolder);
         callerRemote.setDispatcherAddr(dispatcherAddr);
-        if (maxThread.equals("0")){
-            maxThread=queueNumbers;
+        if (maxThread.equals("0")) {
+            maxThread = queueNumbers;
         }
         callerRemote.setRpcReqEventListener(Integer.valueOf(queueNumbers), Integer.valueOf(queueCapacity), Integer.valueOf(maxThread));
         return callerRemote;
@@ -58,7 +55,12 @@ public class SnowStormConfig extends GlobalConstant implements ApplicationContex
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
-        GlobalConstant.callerRemote = context.getBean(CallerRemote.class);
+        //刷新容器
+        refresh(context);
+        //开启Rpc客户端
+        callerRemote = context.getBean(CallerRemote.class);
         callerRemote.start();
     }
+
+
 }

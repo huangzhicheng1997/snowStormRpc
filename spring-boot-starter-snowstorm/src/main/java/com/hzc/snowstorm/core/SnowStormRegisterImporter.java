@@ -3,6 +3,7 @@ package com.hzc.snowstorm.core;
 import com.hzc.snowstorm.annotation.SnowCaller;
 import com.hzc.snowstorm.annotation.SnowProvider;
 import com.hzc.snowstorm.annotation.SnowStormScanner;
+import com.hzc.snowstorm.config.RemoteCallContext;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
@@ -15,7 +16,7 @@ import org.springframework.core.type.filter.AnnotationTypeFilter;
  * @Date: 2020/04/03  17:22
  * @Description:
  */
-public class SnowStormRegisterImporter implements ImportBeanDefinitionRegistrar {
+public class SnowStormRegisterImporter extends RemoteCallContext implements ImportBeanDefinitionRegistrar {
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
         registerProvider(importingClassMetadata, registry);
@@ -30,7 +31,7 @@ public class SnowStormRegisterImporter implements ImportBeanDefinitionRegistrar 
         if (StringUtils.isBlank(basePackage)){
             return;
         }
-        ProviderScanner providerScanner = new ProviderScanner(registry, GlobalConstant.serviceProvidersHolder);
+        ProviderScanner providerScanner = new ProviderScanner(registry, RemoteCallContext.serviceProvidersHolder);
         providerScanner.addIncludeFilter(new AnnotationTypeFilter(SnowProvider.class));
         providerScanner.doScan(basePackage);
     }

@@ -30,7 +30,7 @@ public class ServiceProvider {
     private volatile Method method;
 
     /**
-     * 互斥锁
+     * 监视器
      */
     private final Object mutex = new Object();
 
@@ -63,4 +63,7 @@ public class ServiceProvider {
         return instance;
     }
 
+    public void setInstance(Object instance) {
+        this.instance = instance;
+    }
 }

@@ -1,6 +1,7 @@
 package com.hzc.snowstorm.core;
 
 import com.hzc.snowstorm.annotation.MethodId;
+import com.hzc.snowstorm.config.RemoteCallContext;
 import com.rpc.register.common.MessageIdCode;
 import com.rpc.register.function.CallerRemote;
 import com.rpc.register.protocol.body.RpcReq;
@@ -17,7 +18,7 @@ import java.util.UUID;
  * @Date: 2020/04/03  18:15
  * @Description:
  */
-public class CallerProxy implements InvocationHandler {
+public class CallerProxy extends RemoteCallContext implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
@@ -29,11 +30,11 @@ public class CallerProxy implements InvocationHandler {
         rpcReq.setMethodId(methodAnnotation.methodId());
         rpcReq.setAppName(methodAnnotation.callServerName());
         rpcReq.setMessageId(UUID.randomUUID().toString());
-        RpcResponse rpcResponse = GlobalConstant.callerRemote.remoteCall(rpcReq);
-        if (rpcResponse==null){
+        RpcResponse rpcResponse = callerRemote.remoteCall(rpcReq);
+        if (rpcResponse == null) {
             throw new RuntimeException("remote call timeout");
         }
-        if (rpcResponse.getRpcResult().equals(0)){
+        if (rpcResponse.getRpcResult().equals(0)) {
             throw new RuntimeException("not find target service");
         }
 

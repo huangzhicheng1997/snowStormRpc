@@ -9,6 +9,4 @@ import com.rpc.register.service.ServiceProvidersHolder;
  * @Description:
  */
 public class GlobalConstant {
-    protected static ServiceProvidersHolder serviceProvidersHolder=new ServiceProvidersHolder();
-    protected static CallerRemote callerRemote;
 }

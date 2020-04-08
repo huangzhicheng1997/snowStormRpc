@@ -65,7 +65,7 @@ public class CallerRemote {
         this.serviceProvidersHolder = serviceProvidersHolder;
     }
 
-    //todo 入参使用单例配置
+
     public void setRpcReqEventListener(Integer queueNumbers, Integer queueCapacity, Integer maxThread) {
         rpcReqEventListener = new RpcReqEventListener(queueNumbers, queueCapacity, maxThread);
         if (serviceProvidersHolder == null) {
