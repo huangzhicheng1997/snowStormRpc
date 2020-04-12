@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd837cbc-876d-467a-8cbe-55191e86d88c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/config/RemoteCallContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snowstorm/snowstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/snowstorm/snowstorm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvidersHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvidersHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/config/SnowStormConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/config/SnowStormConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/CallerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/CallerProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/GlobalConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/GlobalConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/SnowStormRegisterImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/SnowStormRegisterImporter.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd837cbc-876d-467a-8cbe-55191e86d88c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/snowstorm/target/" />
     <ignored path="$PROJECT_DIR$/springbootstartersnowstorm/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-starter-snowstorm/target/" />
@@ -23,112 +12,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvidersHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/service/ServiceProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-              <folding>
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/startTest/RouterStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/SnowStormRegisterImporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/GlobalConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/core/CallerProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/config/SnowStormConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/src/main/java/com/hzc/snowstorm/config/RemoteCallContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/snowstorm/src/main/java/com/rpc/register/function/CallerRemote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,6 +36,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0.0.1version" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -192,12 +84,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="snowstorm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="snowstorm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -227,7 +114,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,231 +121,12 @@
               <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="startTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hzc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hzc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hzc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hzc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snowStormRpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snowStormRpc" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter-snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hzc" type="462c0819:PsiDirectoryNode" />
-              <item name="snowstorm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,27 +213,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16568000" />
+    <option name="totallyTimeSpent" value="16576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.09504951" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32871288" />
@@ -574,16 +233,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.328541" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.09504951" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.328541" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
