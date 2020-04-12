@@ -36,7 +36,8 @@
 配置文件：
 ```
 spring:
-  name: testApp2 #配置服务名
+  application:
+    name: testApp2 #配置服务名
 
 snowstorm:  
   dispatcher:  
@@ -90,7 +91,7 @@ public class ConfigSnow {
 
  4.在应用程序中通过@Autowired等注入方式把caller注入到需要使用的类中，直接调用即可。
 
-#优化目标
+# 优化目标
 1.优化线程模型  
 2.消息的消费队列还有一些bug  
 3.日志打印现在直接在控制台打印，后面引入log4j
