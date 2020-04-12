@@ -13,6 +13,5 @@
     <groupId>com.hzc.common</groupId>
     <artifactId>snowstorm-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
 </project>

@@ -14,16 +14,11 @@
     <artifactId>spring-boot-starter-snowstorm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <properties>
-        <java.version>1.8</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <log4j2.version>2.6.2</log4j2.version>
-    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.hzc.rpc</groupId>
-            <artifactId>snowstorm-remote</artifactId>
+            <groupId>com.hzc.common</groupId>
+            <artifactId>snowstorm-client</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

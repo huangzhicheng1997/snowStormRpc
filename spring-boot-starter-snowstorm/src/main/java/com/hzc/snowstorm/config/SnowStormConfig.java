@@ -1,6 +1,6 @@
 package com.hzc.snowstorm.config;
 
-import com.hzc.rpc.function.CallerRemote;
+import com.hzc.caller.function.CallerRemote;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;

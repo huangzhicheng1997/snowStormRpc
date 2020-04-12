@@ -5,6 +5,8 @@ import com.hzc.common.environment.CommonEnvironment;
 import com.hzc.common.environment.Environment;
 import com.hzc.common.environment.Resource;
 
+import java.io.IOException;
+
 /**
  * @author: hzc
  * @Date: 2020/04/12  21:20
@@ -16,12 +18,13 @@ public class RouterConfigReader {
      *
      * @return
      */
-    private static Environment readProperties() {
+    private static Environment readProperties() throws IOException {
         Resource classPathResource = new ClassPathResource();
         classPathResource.setResourceFile("router.properties");
         classPathResource.setClassLoader(Thread.currentThread().getContextClassLoader());
         Environment environment = new CommonEnvironment();
         environment.setResource(classPathResource);
+        environment.loadProperties();
         return environment;
     }
 
@@ -30,10 +33,10 @@ public class RouterConfigReader {
      *
      * @return
      */
-    public static Integer getServerPort() {
+    public static Integer getServerPort() throws IOException {
         Environment environment = readProperties();
         String serverPort = environment.getPropertyValue("router.server.port");
-        boolean matches = serverPort.matches("\"^\\d+$\"");
+        boolean matches = serverPort.matches("^[0-9]*$");
         if (!matches) {
             throw new RuntimeException("Illegal characters the" + serverPort + "is not integer type");
         }
@@ -46,7 +49,7 @@ public class RouterConfigReader {
      *
      * @return
      */
-    public static String getDispatcherAddr(){
+    public static String getDispatcherAddr() throws IOException {
         Environment environment = readProperties();
         return environment.getPropertyValue("router.dispatcher.server.addr");
     }

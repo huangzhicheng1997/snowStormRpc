@@ -12,6 +12,7 @@
     <groupId>com.hzc.snowstorm</groupId>
     <artifactId>snowstorm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
 
     <build>
@@ -33,6 +34,7 @@
         <module>snowstorm-router</module>
         <module>snowstorm-remote</module>
         <module>spring-boot-starter-snowstorm</module>
+        <module>snowstorm-client</module>
     </modules>
 
     <dependencies>
@@ -86,11 +88,11 @@
         </dependency>
 
 
-        <!--<dependency>
+        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.25</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
 

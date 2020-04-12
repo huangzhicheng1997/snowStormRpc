@@ -1,7 +1,7 @@
 package com.hzc.snowstorm.config;
 
 
-import com.hzc.rpc.function.CallerRemote;
+import com.hzc.caller.function.CallerRemote;
 import com.hzc.rpc.service.ServiceProvidersHolder;
 import org.springframework.context.ApplicationContext;
 

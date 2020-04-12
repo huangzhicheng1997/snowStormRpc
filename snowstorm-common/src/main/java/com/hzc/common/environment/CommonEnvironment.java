@@ -42,9 +42,12 @@ public class CommonEnvironment implements Environment {
             i = i + read;
         }
         String propertyString = new String(inputBytes, StandardCharsets.UTF_8);
-        String[] propertyLines = propertyString.split("/n");
+        String[] propertyLines = propertyString.split("\n");
         for (String propertyLine : propertyLines) {
             String[] kv = propertyLine.split("=");
+            if (kv.length<2){
+                throw new RuntimeException("this property: "+kv[0]+"must not empty");
+            }
             properties.put(kv[0], kv[1]);
         }
 

@@ -5,6 +5,8 @@ import com.hzc.common.environment.CommonEnvironment;
 import com.hzc.common.environment.Environment;
 import com.hzc.common.environment.Resource;
 
+import java.io.IOException;
+
 /**
  * @author: hzc
  * @Date: 2020/04/12  21:07
@@ -17,26 +19,28 @@ public class DispatcherConfigReader {
      *
      * @return
      */
-    private static Environment readProperties() {
+    private static Environment readProperties() throws IOException {
         Resource classPathResource = new ClassPathResource();
         classPathResource.setResourceFile("dispatcher.properties");
         classPathResource.setClassLoader(Thread.currentThread().getContextClassLoader());
         Environment environment = new CommonEnvironment();
         environment.setResource(classPathResource);
+        environment.loadProperties();
         return environment;
     }
+
 
     /**
      * 获取具体配置端口
      *
      * @return
      */
-    public static Integer getServerPort() {
+    public static Integer getServerPort() throws IOException {
         Environment environment = readProperties();
         String serverPort = environment.getPropertyValue("dispatcher.server.port");
-        boolean matches = serverPort.matches("\"^\\d+$\"");
+        boolean matches = serverPort.matches("^[0-9]*$");
         if (!matches) {
-            throw new RuntimeException("Illegal characters the" + serverPort + "is not integer type");
+            throw new RuntimeException("Illegal characters the " + serverPort + " is not integer type");
         }
 
         return Integer.valueOf(serverPort);

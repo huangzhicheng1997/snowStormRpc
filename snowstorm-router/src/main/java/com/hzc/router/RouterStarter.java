@@ -1,7 +1,9 @@
 package com.hzc.router;
 
 import com.hzc.router.config.RouterConfigReader;
-import com.hzc.rpc.function.RouterServer;
+import com.hzc.router.function.RouterServer;
+
+import java.io.IOException;
 
 /**
  * @author: hzc
@@ -10,7 +12,7 @@ import com.hzc.rpc.function.RouterServer;
  */
 public class RouterStarter {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String dispatcherAddr = RouterConfigReader.getDispatcherAddr();
         Integer serverPort = RouterConfigReader.getServerPort();
         RouterServer routerServer = new RouterServer();

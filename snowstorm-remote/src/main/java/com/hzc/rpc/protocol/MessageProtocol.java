@@ -68,6 +68,6 @@ public class MessageProtocol {
     public static MessageProtocol errorMsg(String errorInfo,String oldMessageId){
         ErrorMsg errorMsg = new ErrorMsg(errorInfo);
         errorMsg.setMessageId(oldMessageId);
-        return new MessageProtocol(MessageType.BUSSINESS_MSG_RES.getType());
+        return new MessageProtocol(MessageType.BUSSINESS_MSG_RES.getType(),errorMsg);
     }
 }
