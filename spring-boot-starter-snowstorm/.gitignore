@@ -14,10 +14,16 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
+# idea #
 *.iml
-*.ipr
+.idea/
+overlays
+bin
+build/
+out/
+
+# Mac #
+.DS_Store
 
 ### NetBeans ###
 /nbproject/private/
