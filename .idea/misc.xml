@@ -8,6 +8,12 @@
       <list>
         <option value="$PROJECT_DIR$/snowstorm/pom.xml" />
         <option value="$PROJECT_DIR$/springbootstartersnowstorm/pom.xml" />
+        <option value="$PROJECT_DIR$/snowstormdispatcher/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-snowstorm/pom.xml" />
+        <option value="$PROJECT_DIR$/snow-storm-common/pom.xml" />
+        <option value="$PROJECT_DIR$/snowstorm-remote/pom.xml" />
+        <option value="$PROJECT_DIR$/snow-storm-router/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

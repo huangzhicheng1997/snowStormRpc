@@ -6,16 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="snowstorm" />
+        <module name="snowstorm-router" />
+        <module name="snowstorm-client" />
+        <module name="spring-boot-starter-snowstorm" />
+        <module name="snowstorm-common" />
+        <module name="snowstorm-remote" />
+        <module name="snowstorm-dispatcher" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="snowstorm" target="8" />
-      <module name="spring-boot-starter-snowstorm" target="1.8" />
+      <module name="snowstorm-client" target="8" />
+      <module name="snowstorm-common" target="8" />
+      <module name="snowstorm-dispatcher" target="8" />
+      <module name="snowstorm-remote" target="8" />
+      <module name="snowstorm-router" target="8" />
+      <module name="spring-boot-starter-snowstorm" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="snowstorm-client" options="-parameters" />
+      <module name="snowstorm-common" options="-parameters" />
+      <module name="snowstorm-dispatcher" options="-parameters" />
+      <module name="snowstorm-remote" options="-parameters" />
+      <module name="snowstorm-router" options="-parameters" />
       <module name="spring-boot-starter-snowstorm" options="-parameters" />
     </option>
   </component>

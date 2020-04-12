@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/snowStormRpc.iml" filepath="$PROJECT_DIR$/.idea/snowStormRpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/snowstorm/snowstorm.iml" filepath="$PROJECT_DIR$/snowstorm/snowstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm.iml" filepath="$PROJECT_DIR$/snowstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm-client/snowstorm-client.iml" filepath="$PROJECT_DIR$/snowstorm-client/snowstorm-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm-common/snowstorm-common.iml" filepath="$PROJECT_DIR$/snowstorm-common/snowstorm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm-dispatcher/snowstorm-dispatcher.iml" filepath="$PROJECT_DIR$/snowstorm-dispatcher/snowstorm-dispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm-remote/snowstorm-remote.iml" filepath="$PROJECT_DIR$/snowstorm-remote/snowstorm-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowstorm-router/snowstorm-router.iml" filepath="$PROJECT_DIR$/snowstorm-router/snowstorm-router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-snowstorm/spring-boot-starter-snowstorm.iml" filepath="$PROJECT_DIR$/spring-boot-starter-snowstorm/spring-boot-starter-snowstorm.iml" />
     </modules>
   </component>
 </project>

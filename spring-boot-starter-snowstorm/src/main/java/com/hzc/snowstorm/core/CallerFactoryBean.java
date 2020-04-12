@@ -1,6 +1,5 @@
 package com.hzc.snowstorm.core;
 
-import com.rpc.register.function.CallerRemote;
 import org.springframework.beans.factory.FactoryBean;
 
 import java.lang.reflect.Proxy;
