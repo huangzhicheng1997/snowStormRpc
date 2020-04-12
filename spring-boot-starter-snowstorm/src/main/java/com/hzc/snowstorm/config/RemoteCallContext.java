@@ -1,13 +1,13 @@
 package com.hzc.snowstorm.config;
 
-import com.rpc.register.function.CallerRemote;
-import com.rpc.register.service.ServiceProvidersHolder;
+
+import com.hzc.rpc.function.CallerRemote;
+import com.hzc.rpc.service.ServiceProvidersHolder;
 import org.springframework.context.ApplicationContext;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * @author: hzc

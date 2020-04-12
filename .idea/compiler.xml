@@ -6,17 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="snowstorm" />
+        <module name="snowstorm-remote" />
+        <module name="snowstormdispatcher" />
         <module name="spring-boot-starter-snowstorm" />
+        <module name="snow-storm-router" />
+        <module name="snowStormRpc" />
+        <module name="snowstorm-dispatcher" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="snow-storm-common" target="8" />
+      <module name="snow-storm-router" target="8" />
       <module name="snowstorm" target="8" />
-      <module name="spring-boot-starter-snowstorm" target="1.8" />
+      <module name="snowstorm-dispatcher" target="8" />
+      <module name="snowstorm-remote" target="8" />
+      <module name="snowstormdispatcher" target="1.5" />
+      <module name="snowStormRpc" target="8" />
+      <module name="spring-boot-starter-snowstorm" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="snow-storm-common" options="" />
+      <module name="snow-storm-router" options="-parameters" />
+      <module name="snowStormRpc" options="-parameters" />
+      <module name="snowstorm-dispatcher" options="-parameters" />
+      <module name="snowstorm-remote" options="-parameters" />
       <module name="spring-boot-starter-snowstorm" options="-parameters" />
     </option>
   </component>
