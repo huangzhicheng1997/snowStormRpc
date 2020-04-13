@@ -8,7 +8,10 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 /**
  * @author: hzc
@@ -27,6 +30,7 @@ public class CallerProxy extends RemoteCallContext implements InvocationHandler 
         rpcReq.setMethodId(methodAnnotation.methodId());
         rpcReq.setAppName(methodAnnotation.callServerName());
         rpcReq.setMessageId(UUID.randomUUID().toString());
+        rpcReq.setArgs(Arrays.stream(args).collect(Collectors.toList()));
         RpcResponse rpcResponse = callerRemote.remoteCall(rpcReq);
         if (rpcResponse == null) {
             throw new RuntimeException("remote call timeout");
