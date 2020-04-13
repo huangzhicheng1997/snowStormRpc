@@ -98,6 +98,7 @@ public class ConfigSnow {
 4.dispatcher集群支持  
 5.线程安全性优化，效率优化  
 6.starter包中加入methodId自动生成
+7.修复bug
 。。。。。。。。
 
 
