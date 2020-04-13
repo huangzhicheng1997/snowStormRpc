@@ -8,7 +8,7 @@
   
 
 用法：  
-按照以下执行：    
+将项目安装到本地仓库后按照以下执行：    
 
 1.snowstorm-dispatcher：  
 找到程序入口DispatcherStarter，在dispatcher.properties中配置好服务运行端口，运行main  
