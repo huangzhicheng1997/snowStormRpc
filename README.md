@@ -97,6 +97,7 @@ public class ConfigSnow {
 3.日志打印现在直接在控制台打印，后面引入log4j  
 4.dispatcher集群支持  
 5.线程安全性优化，效率优化  
+6.starter包中加入methodId自动生成
 。。。。。。。。
 
 
